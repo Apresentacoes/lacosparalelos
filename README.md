@@ -25,3 +25,8 @@ Para todos os ambientes um dos desafios era minimizar as transferências de dado
 for(/* numero de iteracoes definida para o passo*/){<br>
 /* codigo sensivel ao passo */<br>
 }.<br>
+
+**Resultados**
+Na primeira figura é mostrado os tempos de execução para cada tamanho de malha.
+
+Já na segunda figura as acelerações conquistadas pelas implementações para cada tamanho de malha.
