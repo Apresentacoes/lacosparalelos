@@ -13,4 +13,7 @@ bounceback(...);<br>
 relaxation(...);<br>
 }<br> .
 
-**Continua**
+**Diferentes Ambientes**
+* MPI - destaca-se por que neste tipo de ambiente o laço principal contém um método a mais e cada processo tabalha sobre ele durante as iterações. <br>
+* OPENMP - Já este trabalha com uma quantia menor de código, neste tipo de implementação o foco é paralelizar os laços existentes dentro dos quatros métodos encontrados no exemplo acima dentro do laço principal.<br>
+* CUDA - Aqui a malha é alocado na GPU e em toda aplicação, há apenas movimentaçoẽs antes e depois do laço principal, diminuindo o tempo gasto.
